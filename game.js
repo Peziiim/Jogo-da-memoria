@@ -58,7 +58,7 @@ function checkPattern(currentLevel) {
     if (gamePattern[currentLevel] != userClickedPattern[currentLevel]) {
         
         $("body").addClass("game-over")
-        $("h1").text("Game Over, Press Any Key to Restart")
+        $("h1").text("Game Over, Pressione qualquer tecla para recomeçar")
         playSound("wrong")
         setTimeout(() => {
             $("body").removeClass("game-over")
